@@ -64,13 +64,9 @@ h1{
 }
 
 .logo{
-
--ms-transform: scale(.3,.3); /* IE 9 */
--webkit-transform: scale(.3,.3); /* Chrome, Safari, Opera */
-transform: scale(.3,.3);
-
-
-
+  left:200px;
+  position:relative;
+  top:90px;
 }
 
 /*.landing-words{
@@ -80,7 +76,8 @@ transform: scale(.3,.3);
   color:white;
   font-weight:bold;
   position:relative;
-  left:100px;
+  left:200px;
+  top:100px;
 }
 .btn{
 /*position:relative;
@@ -90,12 +87,17 @@ right:300px;*/
 border:white solid 1px;
 background-color:none;
 position:absolute;
-left:100px;
-
 }
-.buttons{
-  left:200px
 
+.btn1{
+  left:200px;
+  position:relative;
+  top:130px
+}
+.btn2{
+  left:200px;
+  position:relative;
+  top:130px;
 }
 
 a{color:white;
