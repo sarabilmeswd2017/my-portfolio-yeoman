@@ -31,7 +31,8 @@
   <![endif]-->
 
   <div class="container-fluid">
-    <div class="top-blue">
+      <!--<div class="landing-top">-->
+      <div class="top-blue">
       <div class="header">
         <ul class="nav nav-pills float-right">
           <li class="nav-item">
@@ -41,7 +42,7 @@
             <a class="nav-link" href="profile.html">Profile</a>
           </li>
           <li>
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <li>
             <a class="nav-link" href="#">Contact</a>
@@ -64,16 +65,16 @@
       </div>
       </div>
       </div>
-    </div>
+      </div>
     <div class="points">
 
-      <div  class="animated fadeInUp revealOnScroll development">
+      <div  class="revealOnScroll development" data-animation="fadeInUp">
        
           <img src="images/computer-icon.png" alt="development icon">
           <h2>Development</h2>
         
       </div>
-      <div  class="animated fadeInUp revealOnScroll design">
+      <div  class="revealOnScroll design" data-animation="fadeInUp">
         
           <img src="images/design-icon.png" alt="design icon">
             <h2>Design</h2>
@@ -121,8 +122,9 @@
       <!-- endbuild -->
 
       <!-- build:js scripts/main.js -->
+      <script src="scripts/landing.js"></script>
       <script src="scripts/main.js"></script>
-
+      
       <!-- endbuild -->
     </body>
     </html>
