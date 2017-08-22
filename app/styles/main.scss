@@ -24,7 +24,7 @@ h1{
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
+
 .marketing,
 .footer {
   padding-right: 1rem;
@@ -58,9 +58,14 @@ h1{
 }
 
 .landing-top{
-  background-color:#305677;
-  height:700px;
+  
+  height:650px;
   width:100%;
+  background-color: #201b56; 
+  background-color: -webkit-radial-gradient(#305677 80%, #1d3344 20% ); 
+  background-color: -o-radial-gradient(#305677 80%, #1d3344 20% ); 
+  background-color: -moz-radial-gradient(#305677 80%, #1d3344 20%) ; 
+  background-color: radial-gradient(#305677 80%, #1d3344 5% ); 
 
 }
 
@@ -103,7 +108,7 @@ position:absolute;
 .btn1{
   left:200px;
   position:relative;
-  top:130px
+  top:130px;
 }
 .btn2{
   left:200px;
@@ -111,13 +116,15 @@ position:absolute;
   top:130px;
 }
 
-a{color:white;
+a{
+  color:white;
 }
-a:hover{color:#563d7c
+a:hover{
+  color:#563d7c;
 }
 
 .shape{
-  position:absolute;
+  position: absolute;
   display:block;
   -ms-transform: scale(1.1,1.1); /* IE 9 */
   -webkit-transform: scale(1.1,1.1); /* Chrome, Safari, Opera */
@@ -132,64 +139,21 @@ a:hover{color:#563d7c
 
 }
 .development{
-  position:relative;
-text-align: center;
-float:left;
+margin:1em;
+display:inline-block;
 }
 
 
 
-.design h2{
-  position:relative;
-  text-align:center;
-}
-
-.graphics{
-  position:relative;
-}
-.port-img{
-  height:300px;
-  opacity: 1;
-  display: block;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.graphics:hover .port-img{
-  opacity:0.3;
-}
-
-.graphics:hover .middle{
-  opacity:1;
-}
-
-.text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-.portfolio-content{
-  margin-left:auto;
-  margin-right:auto;
+.design{
+margin:1em;
+display:inline-block;
   
 }
 
-.portfolio-headers{
-  text-align: center;
-  color: purple;
-}
+
+
+
 
 .colored_nav{
   background-color:#305677;
@@ -224,7 +188,4 @@ float:left;
   }
   
   }
-  .top-green{
-    width:100%;
-  }
-
+  

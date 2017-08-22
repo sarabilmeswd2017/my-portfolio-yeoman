@@ -18,8 +18,11 @@
   <!-- endbuild -->
 
   <!-- build:css styles/main.css -->
+  
   <link rel="stylesheet" href="styles/main.css">
   <link rel"stylesheet" href="styles/landing.css">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  
   <!-- endbuild -->
 
   <!-- build:js scripts/vendor/modernizr.js -->
@@ -35,7 +38,22 @@
       <!--<div class="landing-top">-->
       <div class="landing-top">
       <div class="header">
-        <ul class="nav nav-pills float-right">
+          
+        <ul class="float-right">
+          <li>
+            <a href="#"><span class="ion-navicon-round"></span></a>
+            <ul>
+              <li><a href="#">Home</a><li>
+              <li><a href="#">Portfolio</a><li>
+              <li><a href="#">Profile</a><li>
+              <li><a href="#">Contact</a><li>
+            </ul>
+          </li>
+        </ul>
+          
+          
+        <ul class="nav nav-pills float-left">
+          
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
@@ -56,32 +74,32 @@
 
       <div class="landing-words">
         <div class="row">
-        <div class="col-8">
-        <img class="logo animated pulse" src="images/My-logo-new.png" alt="my logo" href="index.html">
-        <h1 class="main_heading">Web Developer and Designer</h1>
-        <div class="buttons">
-        <a class="btn btn1" href="portfolio.html">Explore My Projects</a>
-        <a class="btn btn2" href="profile.html">View My Profile</a>
+          <div class="col-8">
+            <img class="logo animated pulse infinite" src="images/My-logo-new.png" alt="my logo" href="index.html">
+            <h1 class="main_heading">Web Developer and Designer  </h1>
+            <div class="buttons">
+              <a class="btn btn1" href="portfolio.html">Explore My Projects</a>
+              <a class="btn btn2" href="profile.html">View My Profile</a>
+            </div>
+         </div>
+       </div>
       </div>
+      <div class="ball"></div>
       </div>
-      </div>
-      </div>
-      </div>
-    <div class="points">
-
-      <div  class="revealOnScroll development" data-animation="fadeInUp">
+    
        
-          <img src="images/computer-icon.png" alt="development icon">
-          <h2>Development</h2>
-        
+     <div class="points">
+
+       <div  class="development">
+         <img class="img-point" src="images/computer-icon.png" alt="development icon">
+         <h2>Development</h2>
       </div>
-      <div  class="revealOnScroll design" data-animation="fadeInUp">
-        
-          <img src="images/design-icon.png" alt="design icon">
-            <h2>Design</h2>
-          
-        </div>
+      <div  class="design">
+        <img class="img-point" src="images/design-icon.png" alt="design icon">
+        <h2>Design</h2>
       </div>
+    
+    </div>
 
 
 
