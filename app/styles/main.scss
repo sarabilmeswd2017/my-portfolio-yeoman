@@ -69,14 +69,7 @@ h1{
 
 }
 
-.landing-top{
-     position: relative;
-     min-height: 600px;
-     background-image: url(images/bookcoverport.jpg);
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: cover;
-}
+
 
 
 .logo{
@@ -153,6 +146,73 @@ display:inline-block;
 
 
 
+.ion-navicon-round{
+  color:white;
+  margin-top:2em;
+  position: fixed;
+  top: 0;
+  right: 100px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  transform: scale(1.5,1.5);
+  /*transition: background-color 300ms ease*/
+  vertical-align: center;
+  z-index: 1;
+}
+
+
+
+.nav-rectangle{
+  width:100px;
+  height:300px;
+  background-color: #2c2a72;
+  position:absolute;
+  top:0;
+  right:80px;
+  opacity:0;
+}
+
+.hidden-nav{
+  display: none;
+  margin-right:30px;
+}
+
+.ion-navicon-round:hover .nav-rectangle{
+  opacity:1;
+}
+
+
+.ion-navicon-round:hover .hidden-nav{
+  display:block;
+}
+
+
+
+/*ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #555;}
+ul li:hover ul {display: block;}
+
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666;}*/
+
+ul li{
+    list-style-type: none;
+}
 
 
 .colored_nav{
