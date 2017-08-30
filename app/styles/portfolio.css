@@ -1,11 +1,24 @@
+.container{
+  background-color:#201b56;
+}
+
 .portfolio-top{
   
   height:500px;
   width:100%;
 }
 
-.graphics{
+.portfolio{
   position:relative;
+  z-index:2;
+  margin-top:20px;
+}
+.portfolio .row{
+  margin-top:10px;
+}
+
+.development-port{
+ margin-bottom:20px;
 }
 .port-img{
   height:300px;
@@ -63,6 +76,13 @@ h1{
 }
 
 h1:hover{
-    background-color:#2c2a72;
+    background-color:#404077;
   
+}
+
+h2{
+  font-size: 3em;
+  text-align: center;
+  border-bottom:#201b56 dotted 4px;
+  padding-bottom:10px;
 }
