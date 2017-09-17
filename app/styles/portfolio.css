@@ -1,6 +1,4 @@
-.container{
-  background-color:#201b56;
-}
+
 
 .portfolio-top{
   
@@ -22,6 +20,8 @@
 }
 .port-img{
   height:300px;
+  
+  overflow:hidden;
   opacity: 1;
   display: block;
   transition: .5s ease;
@@ -47,10 +47,12 @@
 }
 
 .text {
-  background-color: #d25d56;
+  background-color: #201b56;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+  width:300px;
+  text-align:center;
 }
 
 .portfolio-content{
@@ -70,19 +72,73 @@
 }
 
 h1{
-    font-size: 4em;
-    line-height: 3em;
-    cursor:pointer;
+font-size: 4em;
+position:relative;
+color:white;
+text-align: center;
+top:325px;
 }
 
-h1:hover{
-    background-color:#404077;
-  
+.shape{
+  color:white;
 }
+
 
 h2{
   font-size: 3em;
   text-align: center;
   border-bottom:#201b56 dotted 4px;
   padding-bottom:10px;
+}
+
+.blocjams{
+  color:white;
+  border-bottom:white solid 3px;
+  cursor:pointer;
+}
+
+.blocjams-info{
+  display: none;
+  
+}
+
+.port-like-simon{
+  margin-top:200px;
+}
+
+
+.development-port{
+  background-color:#c1c0dd;
+  padding:10px;
+}
+
+.development-port .col{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.port-photo{
+  height: 500px;
+  width:700px;
+}
+
+p{
+  text-align:center;
+  font-size:2em;
+}
+
+a{
+  color:#201b56;
+}
+
+.portfolio-top{
+  
+  height:660px;
+  width:100%;
+  background-color: #201b56; 
+  background-color: -webkit-radial-gradient(#305677 80%, #1d3344 20% ); 
+  background-color: -o-radial-gradient(#305677 80%, #1d3344 20% ); 
+  background-color: -moz-radial-gradient(#305677 80%, #1d3344 20%) ; 
+  background-color: radial-gradient(#305677 80%, #1d3344 5% ); 
+
 }

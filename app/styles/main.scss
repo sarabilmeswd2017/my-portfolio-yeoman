@@ -14,6 +14,7 @@ body {
 /*  padding-top: 1.5rem;*/
   padding-bottom: 1.5rem;
   font-family: 'Open Sans Condensed', sans-serif;
+ 
 }
 h1{
   font-family: 'Dosis', sans-serif;
@@ -57,9 +58,9 @@ h1{
   font-size:1.5em;
 }
 
-.landing-top{
+/*.landing-top{
   
-  height:670px;
+  height:100%;
   width:100%;
   background-color: #201b56; 
   background-color: -webkit-radial-gradient(#305677 80%, #1d3344 20% ); 
@@ -67,9 +68,13 @@ h1{
   background-color: -moz-radial-gradient(#305677 80%, #1d3344 20%) ; 
   background-color: radial-gradient(#305677 80%, #1d3344 5% ); 
 
+}*/
+
+.landing-container{
+  height:660px;
+  width:100%;
+  background-color: #201b56; 
 }
-
-
 
 
 .logo{
@@ -166,6 +171,10 @@ display:inline-block;
   z-index: 1;
 }
 
+.hidden-nav-1 span{
+  color:white;
+}
+
 .nav-box{
   position: fixed;
   top:0;
@@ -185,6 +194,8 @@ display:inline-block;
   cursor:pointer;
   z-index: 1;
 }
+
+
 
 /*.hidden-nav-1:hover + .hidden-nav-2{
   right:200px;
@@ -217,37 +228,56 @@ display:inline-block;
   display:none;
 }
 
-.hidden-nav-2{
+/*.hidden-nav-2{
   
   line-height: 3em;
   position: fixed;
   top:140px;
-  right:180px;
-  -webkit-animation: move-nav 5s linear;
-  animation: move-nav 5s linear;
-  
-}
-
-.hidden-nav-2 li{
-  background-color:#404077;
-  margin:2px;
-  padding-left:3px;
-  padding-right:3px;
-  
-}
-
-/*.home-active{
-  opacity:0;
+  right:160px;
+  color:white;
 }*/
 
-.hidden{
+.home-active{
+  position: fixed;
+  top:150px;
+  right:160px;
   display:none;
 }
 
-
-.ion-navicon-round:hover .nav-rectangle{
-  opacity:1;
+.portfolio-active{
+  position: fixed;
+  top:200px;
+  right:160px;
+  display:none;
 }
+
+.profile-active{
+  position: fixed;
+  top:250px;
+  right:160px;
+  display:none;
+}
+
+.contact-active{
+  position: fixed;
+  top:300px;
+  right:160px;
+  display:none;
+}
+
+.hidden-nav-2 a{
+  background-color:#404077;
+  margin:2px;
+  padding:10px;
+  
+  
+}
+
+//.ion-ios-home:hover .home-active{
+ // opacity:1;
+//}
+
+
 
 .ion-navicon-round:hover{
   color:#BB31B0;
@@ -255,42 +285,19 @@ display:inline-block;
 
 
 
-
-
-
-/*ul li ul {
-  position: absolute;
-  width: 200px;
-  display: none;
-}
-ul {
-  display: inline;
-  margin: 0;
-  padding: 0;
-}
-ul li {display: inline-block;}
-ul li:hover {background: #555;}
-ul li:hover ul {display: block;}
-
-ul li ul li { 
-  background: #555; 
-  display: block; 
-}
-ul li ul li a {display:block !important;} 
-ul li ul li:hover {background: #666;}*/
-
 ul li{
     list-style-type: none;
 }
+
 
 
 .colored_nav{
   background-color:#305677;
   height:80px;
 }
-.container-narrow > hr {
+/*.container-narrow > hr {
   margin: 2rem 0;
-}
+}*/
 
 
 
