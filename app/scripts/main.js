@@ -71,3 +71,5 @@ $(document).ready(function(){
       });
  
 });*/
+
+$('#bloc-jams-modal').modal(options)
