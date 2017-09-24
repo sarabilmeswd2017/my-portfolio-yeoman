@@ -71,7 +71,7 @@ h1{
 }*/
 
 .landing-container{
-  height:660px;
+  height:100vh;
   width:100%;
   background-color: #231f55; 
 }
@@ -271,6 +271,10 @@ display:inline-block;
   padding:10px;
   
   
+}
+
+.navigation{
+  z-index:1;
 }
 
 //.ion-ios-home:hover .home-active{

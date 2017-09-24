@@ -4,12 +4,12 @@
   
   height:700px;
   width:100%;
-  background-image: url("../images/oil-painting-me.jpg"); 
+  background-image: url("../images/oil-painting-me.jpg");
 }
 
 .portfolio{
   position:relative;
-  z-index:2;
+  
   margin-top:20px;
 }
 .portfolio .row{
@@ -36,6 +36,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  right:50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
@@ -44,6 +45,9 @@
   opacity:0.3;
 }
 
+.port:hover .middle{
+  opacity:1;
+}
 .middle:hover{
   opacity:1;
 }
@@ -183,4 +187,26 @@ margin:0 -100%;
 
 .development-section{
   border-bottom:#201b56 dotted 4px;
+}
+
+.play-img{
+  transform:scale(0.5);
+  float:left;
+}
+
+.pause-img{
+  transform:scale(0.5);
+  float:left;
+}
+
+.full-img{
+  transform:scale(0.5);
+}
+
+.jam-pics{
+  display:inline;
+}
+
+a{
+  color:#d25d56;
 }

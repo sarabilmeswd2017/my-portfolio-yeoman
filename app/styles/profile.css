@@ -2,7 +2,7 @@
     height:700px;
     width:100%;
     /*background-color:#231f55;*/
-    background-image: url("../images/profile-background.jpg");
+    background-color:#231f55;
 }
 
 h1{
@@ -16,13 +16,15 @@ h1{
 
 .headshot{
     float:left;
-    margin-top:0;
+    margin-top:5px;
+    border:#231f55 solid 4px;
+    
 }
-
 .clearfloat{
     clear:both;
 }
 
 .profile-words{
     padding:10px;
+    z-index:1;
 }
