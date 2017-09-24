@@ -37,6 +37,7 @@
   top: 50%;
   left: 50%;
   right:50%;
+  
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
@@ -210,3 +211,14 @@ margin:0 -100%;
 a{
   color:#d25d56;
 }
+
+/*.bloc-jams-img{
+  position:relative;
+}
+
+.bloc-jams-middle{
+  position:absolute;
+  top:35%;
+  left:67%;
+  
+}*/

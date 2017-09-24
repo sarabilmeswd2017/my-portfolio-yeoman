@@ -71,8 +71,8 @@
 				<div class="row">
 					<div class="dev-background"></div>
 					<div class="col">
-						<img alt="bookcover" class="port-img first-img" src="images/development/bloc-jams.png">
-						<div class="middle">
+						<img alt="bookcover" class="bloc-jams-img port-img first-img" src="images/development/bloc-jams.png">
+						<div class="middle bloc-jams-middle">
 							<button class="btn btn-primary" data-target="#bloc-jams-modal" data-toggle="modal" type="button">
 							<div class="text">
 								Bloc Jams
@@ -93,17 +93,19 @@
 					<div class="col">
 						<img alt="bookcover" class="port-img first-img" src="images/development/bloccit.png">
 						<div class="middle">
+							<button class="btn btn-primary" data-target="#bloccit-modal" data-toggle="modal" type="button">
 							<div class="text">
 								Bloccit
-							</div>
+							</div></button>
 						</div>
 					</div>
 					<div class="col">
 						<img alt="logo mockup" class="port-img" src="images/development/bloc-chat.png">
 						<div class="middle">
+							<button class="btn btn-primary" data-target="#blocipeda-modal" data-toggle="modal" type="button">
 							<div class="text">
 								Blocipedia
-							</div>
+							</div></button>
 						</div>
 					</div>
 				</div>
@@ -111,17 +113,19 @@
 					<div class="col">
 						<img alt="bookcover" class="port-img first-img" src="images/development/alba.png">
 						<div class="middle">
+							<button class="btn btn-primary" data-target="#alba-modal" data-toggle="modal" type="button">
 							<div class="text">
 								Alba Women
-							</div>
+							</div></button>
 						</div>
 					</div>
 					<div class="col">
 						<img alt="logo mockup" class="port-img" src="images/development/rockefeller.png">
 						<div class="middle">
+							<button class="btn btn-primary" data-target="#rockefeller-modal" data-toggle="modal" type="button">
 							<div class="text">
-								Rockefeller Music School
-							</div>
+								Rockefeller School of Music
+							</div></button>
 						</div>
 					</div>
 				</div>
@@ -331,9 +335,8 @@
 					<h4 class="modal-title" id="modalLabelLarge">Camp Chatter</h4>
 				</div>
 				<div class="modal-body">
-					Camp Chatter is a chat room for all the future campers at this awesome camp. As you can see, there are many different chat rooms 
-					you can be part of to get to know the other campers who will be participating in activities with you. You sign in, write your message,
-					and everyone can see which user sent the message. 
+					Camp Chatter is a chat room build with AngularJS for all the future campers at the incredible awesome camp of Camp Chatter. There are chat rooms for each 
+					type of activity/group, which gives campers the ability to socialize with other like-minded campers. Everyone can see the user that has written the message.
 					The app can also be used after camp to keep all campers and staff in touch. 
 					<strong>Skills Used: AngularJS</strong>
 					Check out the site: <a href="https://pacific-savannah-92931.herokuapp.com">Here</a>
@@ -342,14 +345,69 @@
 			</div>
 		</div>
 	</div>
+	<div aria-hidden="true" aria-labelledby="myLargeModalLabel" class="modal fade" id="bloccit-modal" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="modalLabelLarge">Bloccit</h4>
+				</div>
+				<div class="modal-body">
+						Bloccit is a Ruby on Rails application for creating posts. The app allows for users to create posts, and each post is nested under 
+						a topic. When signed in, users may comment on posts and mark them as a favorite. When a post is marked as a favorite, and email confirmation
+						is sent to the owner of the post that their post was marked as a favorite. 
+						<strong>Skills Used: Ruby on Rails</strong>
+						Checkout out the site: <a href="https://secret-everglades-77094.herokuapp.com">Here</a>
+			  </div>
+			</div>
+	 </div>
+	</div>
+	<div aria-hidden="true" aria-labelledby="myLargeModalLabel" class="modal fade" id="blocipeda-modal" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="modalLabelLarge">Blocipedia</h4>
+				</div>
+				<div class="modal-body">
+					Blocipedia is an application where one can create wikis. If one is a preimum user, they can add collaborators to your wikis, and mark
+					wikis as private. 
+					The site can be viewed <a href="https://evening-fortress-13504.herokuapp.com">Here</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div aria-hidden="true" aria-labelledby="myLargeModalLabel" class="modal fade" id="alba-modal" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="modalLabelLarge">Alba Women</h4>
+				</div>
+				<div class="modal-body">
+					Alba Women is an e-commerce clothing site that I created for a client using Wordpress. The Alba clothing are a line of Italian 
+					active wear. Check out the site <a href="https://albawomen.com">Here</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div aria-hidden="true" aria-labelledby="myLargeModalLabel" class="modal fade" id="rockefeller-modal" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="modalLabelLarge">Rockefeller Music School</h4>
+				</div>
+				<div class="modal-body">
+					sdfsdfsd
+				</div>
+			</div>
+		</div>
+	</div>
 	<div aria-hidden="true" aria-labelledby="myLargeModalLabel" class="modal fade" id="master-art-modal" role="dialog" tabindex="-1">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4 class="modal-title" id="modalLabelLarge">Hello</h4>
+					<h4 class="modal-title" id="modalLabelLarge">Master Art Online</h4>
 				</div>
 				<div class="modal-body">
-					Large shoes are usually avoided by people with small feet.
+					
 				</div>
 			</div>
 		</div>
