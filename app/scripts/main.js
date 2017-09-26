@@ -72,6 +72,3 @@ $(document).ready(function(){
  
 });*/
 
-$(".port-img").click(function(){
-  $('#bloc-jams-modal').modal();
-});
