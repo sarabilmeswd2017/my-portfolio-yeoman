@@ -274,3 +274,11 @@ h1{
 a{
   color:#158c37;
 }
+
+.words{
+  float:left;
+}
+
+.modal-images{
+  max-width:100%;
+}
