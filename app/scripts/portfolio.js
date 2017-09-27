@@ -243,3 +243,15 @@ $(document).ready(function(){
         $('.treepodia .text').slideToggle();
   });
 });
+
+$(document).ready(function(){
+    $(".dejanu").click(function(){
+        $('#dejanu-modal').modal();
+  });
+});
+
+$(document).ready(function(){
+    $(".dejanu").hover(function(){
+        $('.dejanu .text').slideToggle();
+  });
+});
