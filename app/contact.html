@@ -28,6 +28,12 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("user_Ohegs0wlmimp1OtsgURpV");
+       })();
+    </script>
   </head>
   <body>
   <div class="container">
@@ -80,7 +86,7 @@
               <label for="message">What's on your mind?</label>
               <input type="text-box" class="form-control" id="message" placeholder="Message">
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary submit">Submit</button>
           </form>
         
         </div>
@@ -128,4 +134,8 @@
 
   <!-- build:js scripts/main.js -->
   <script src="scripts/main.js"></script>
+  <script src="scripts/contact.js"></script>
+</script> <!-- endbuild -->
+</body>
+</html>
   
