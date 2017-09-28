@@ -13,7 +13,7 @@ $(function() {
         win_height_padded = $window.height() * 1.1;
 
     // Showed...
-    $(".revealOnScroll:not(.animated)").each(function () {
+    $('.revealOnScroll:not(.animated)').each(function () {
       var $this     = $(this),
           offsetTop = $this.offset().top;
 
@@ -28,7 +28,7 @@ $(function() {
       }
     });
     // Hidden...
-   $(".revealOnScroll.animated").each(function (index) {
+   $('.revealOnScroll.animated').each(function (index) {
       var $this     = $(this),
           offsetTop = $this.offset().top;
       if (scrolled + win_height_padded < offsetTop) {
