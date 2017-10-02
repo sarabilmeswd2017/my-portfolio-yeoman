@@ -255,3 +255,15 @@ $(document).ready(function(){
         $('.dejanu .text').slideToggle();
   });
 });
+
+$(document).ready(function(){
+    $('.blocitoff').click(function(){
+        $('#blocitoff-modal').modal();
+  });
+});
+
+$(document).ready(function(){
+    $('.blocitoff').hover(function(){
+        $('.blocitoff .text').slideToggle();
+  });
+});
