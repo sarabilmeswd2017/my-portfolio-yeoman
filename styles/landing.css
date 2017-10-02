@@ -1,0 +1,7 @@
+.ball{
+    height: 50px;
+    width: 50px;
+    color:red;
+    z-index: 1;
+}
+
